@@ -50,7 +50,7 @@ const pizzaData = [
 function Pizza(props) {
     return(
     <div className="pizza">
-        <img src={props.img} alt={name}/>
+        <img src={props.img} alt={props.name} />
         <h3>{props.name}</h3>
         <p>{props.description}</p>
         <p>{props.price}</p>
